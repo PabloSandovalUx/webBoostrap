@@ -6,7 +6,7 @@
 - [x] Estructura básica HTML
 - [X] Construcción Header
 - [X] Construcción Carrusel
-- [ ] Construcción Section Cards
+- [x] Construcción Section Cards
 - [ ] Construcción Footer
 
 

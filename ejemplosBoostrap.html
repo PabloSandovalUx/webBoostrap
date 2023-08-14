@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos Bootstrap</title>
+    <meta name="description" content="Distintos ejemplos de uso de bootstrap">
+    <meta name="keywords" content="Bootstrap, ejercicio, web">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <style>
+            .row div:nth-child(odd) {
+                background-color: green;
+            }
+    
+            .row div:nth-child(even) {
+                background-color: pink;
+            }
+    
+            .row div {
+                height: 100px;
+            }
+        </style>
+</head>
+
+<body>
+    <div class="container text-center bg-primary py-4">
+        <div class="row bg-danger py-3">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+            <div class="col">4</div>
+            <div class="col">5</div>
+            <div class="col">6</div>
+            <div class="col">7</div>
+            <div class="col">8</div>
+            <div class="col">9</div>
+            <div class="col">10</div>
+            <div class="col">11</div>
+            <div class="col">12</div>
+        </div>
+        <div class="row bg-warning py-3 justify-content-center row-cols-3 row-cols-md-6 row-cols-lg-2">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+            <div class="col">4</div>
+            <div class="col">5</div>
+            <div class="col">6</div>
+            <div class="col">7</div>
+            <div class="col">8</div>
+            <div class="col">9</div>
+            <div class="col">10</div>
+            <div class="col">11</div>
+            <div class="col">12</div>
+            <div class="col">13</div>
+            <div class="col">14</div>
+        </div>
+        <div class="row bg-info py-3 justify-content-center">
+            <div class="col-5">1</div>
+            <div class="col-5">2</div>
+            <div class="col-5">3</div>
+            <div class="col-5">4</div>
+            <div class="col-10">5</div>
+        </div>
+        <div class="row bg-warning py-3">
+            <div class="col-12 col-md-4 col-lg-6 col-xl-3 col-xxl-3">1</div>
+            <div class="col-12 col-md-4 col-lg-3 col-xl-6 col-xxl-3">2</div>
+            <div class="col-12 col-md-4 col-lg-3 col-xl-3 col-xxl-6">3</div>
+        </div>
+        <div class="row bg-secondary py-3">
+            <div class="col-6">
+                columna de 6
+                <div class="row">
+                    <div class="col-12">1</div>
+                    <div class="col-12">2</div>
+                    <div class="col-12">3</div>
+                </div>
+            </div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
